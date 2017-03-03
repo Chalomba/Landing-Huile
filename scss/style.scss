@@ -1,0 +1,551 @@
+
+body {
+  background-color: $white;
+}
+
+//top section
+
+.section_top {
+  background: url("../image/bg1.jpg");
+  background-repeat: no-repeat;
+  h2 {
+    color: $red;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+  h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $red;
+  }
+  h1 {
+    color: $grey;
+    font-weight: 700;
+    padding: 9px 0 21px;
+  }
+  h4 {
+    color: $grey;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 52px;
+    padding: 96px 0 33px;
+  }
+
+  img {
+    padding-right: 30px;
+  }
+
+  p {
+    font-size: 32px;
+    font-style: italic;
+    color: $grey;
+    padding-bottom: 5px;
+  }
+  .timer {
+    h2 {
+      color: $white;
+      background-color: $red;
+      margin: 0px 85px 30px;
+      padding: 20px 0;
+    }
+    img {
+      margin-top: 61px;
+      padding-right: 0px;
+    }
+  }
+}
+
+.price_section {
+  h2 {
+    color: $red;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 48px;
+    text-transform: none;
+    margin-bottom: 49px;
+  }
+  img {
+    padding: 26px 0 0;
+  }
+  p {
+    line-height: 1;
+    text-decoration: line-through;
+    font-size: 34px;
+    font-style: italic;
+    color: $grey;
+    padding-bottom: 5px;
+  }
+  .sale {
+    display: -webkit-box;
+    padding-left: 0px;
+  }
+  .sale_price {
+    padding-right: 0px;
+    p {
+      font-size: 74px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+      font-style: normal;
+    }
+    h5 {
+      color: #b22a0a;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 21px;
+    }
+  }
+  .button_price {
+    padding: 0px;
+    .button {
+      background-image: linear-gradient(to top, #b22a0a 0%, #da330c 100%);
+      font-size: 26px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $white;
+      padding: 14px 64px;
+      margin: 10px 0 157px;
+    }
+  }
+}
+
+//end top section
+
+.section_two {
+  background: url("../image/bg2.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 127px;
+
+  h2 {
+    color: $grey;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $green;
+    width: 285px;
+  }
+
+  .advantages {
+    margin-bottom: 250px;
+    .columns {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+    .description {
+      display: flex;
+      h5 {
+        border: 1px solid $grey;
+        padding: 20px 30px 20px 20px;
+        width: 285px;
+        font-size: 18px;
+        font-weight: 300;
+        color: $grey;
+        margin: 0px 30px 0px 0px;
+        line-height: 19px;
+      }
+      img {
+        margin: auto;
+        height: 100%;
+      }
+    }
+  }
+
+  .disadvantages {
+    .columns {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+    .description {
+      display: flex;
+      h5 {
+        border: 1px solid $grey;
+        padding: 20px 19px 20px 20px;
+        width: 285px;
+        font-size: 18px;
+        font-weight: 300;
+        color: $grey;
+        margin: 0px;
+        line-height: 19px;
+      }
+      img {
+        margin: auto 30px auto 0px;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.section_footer {
+  background: url("../image/bg3.jpg");
+  background-repeat: no-repeat;
+  h2 {
+    font-weight: 700;
+    color: $grey;
+    font-size: 48px;
+  }
+  .time {
+    margin: 30px 0 70px;
+    img {
+      height: 100%;
+      margin: auto;
+    }
+    h5 {
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 0px;
+    }
+    .time_small {
+      border-radius: 10px;
+      background-color: #616161;
+      opacity: 0.5;
+      display: flex;
+      margin-top: 24px;
+      h5 {
+        font-size: 17px;
+        line-height: 19px;
+        padding: 13px 37px 9px 13px;
+      }
+    }
+    .right {
+      h5 {
+        padding: 13px 22px 9px 13px;
+      }
+    }
+    .time_center {
+      display: flex;
+      border-radius: 10px;
+      background-color: #616161;
+      opacity: 0.7;
+      margin: 0 20px;
+      h5 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 34px;
+        padding: 22px 55px 17px 25px;
+      }
+      img {
+        padding-left: 10px;
+      }
+    }
+  }
+  .oil {
+    h2 {
+      color: #da330c;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 64px;
+      margin-top: 65px;
+      span {
+        text-transform: uppercase;
+      }
+    }
+  }
+  .price_section {
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .section_top {
+    background: $white;
+    h2 {
+      font-size: 32px;
+      padding: 10px 0 0px 0;
+      margin-bottom: 0px;
+    }
+    h1 {
+      font-size: 33px;
+      padding: 0px 0 10px;
+    }
+    h3 {
+      font-size: 22px;
+      line-height: 23px;
+    }
+    h4 {
+      padding: 0px;
+      font-size: 33px;
+
+    }
+    .check {
+      p {
+        font-size: 18px;
+        margin-bottom: 0px;
+      }
+      img {
+        width: 10%;
+        padding-right: 10px;
+      }
+    }
+    .oil_mobile {
+      padding-right: 0px;
+    }
+    .timer {
+      padding: 0px;
+      h2 {
+        margin: 0px 0 16px;
+        font-size: 32px;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .price_section {
+    p {
+      line-height: 1.3;
+      font-size: 32px;
+    }
+    img {
+      width: 65%;
+    }
+    h2 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    .sale {
+      padding-left: inherit;
+      display: flex;
+    }
+    .sale_price {
+      p {
+        font-size: 55px;
+      }
+    }
+    .button_price {
+      .button {
+        width: 100%;
+        padding: 14px 18px;
+        margin: 10px 0 20px;
+      }
+    }
+  }
+
+  .section_two {
+    padding-top: 0px;
+    background: $white;
+    h2 {
+      font-size: 35px;
+      padding-bottom: 0px;
+      padding-top: 10px;
+    }
+    .advantages, .disadvantages {
+      margin-bottom: 20px;
+      h3 {
+        width: 100%;
+      }
+      .description {
+        h5 {
+          padding: 10px;
+          margin: 0px 15px 0px 0px;
+        }
+      }
+      .columns {
+        padding: 0 10px;
+      }
+    }
+    .disadvantages {
+      .description {
+        h5 {
+          margin: 0px;
+        }
+        img {
+          margin: auto 15px auto 0px;
+        }
+      }
+    }
+  }
+
+  .section_footer {
+    h2 {
+      font-size: 28px;
+    }
+    .time {
+      margin: 7px 0 30px;
+
+      img {
+        margin: auto 0;
+      }
+      .time_small {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        h5 {
+          padding: 14px 35px 10px 7px;
+        }
+      }
+      .time_center {
+        margin: 0px;
+        h5 {
+          padding: 15px;
+        }
+      }
+    }
+    .oil {
+      h2 {
+        line-height: 41px;
+        margin-top: 0px;
+        font-size: 29px;
+        text-align: center;
+      }
+    }
+    .price_section {
+      margin-bottom: 10px;
+    }
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .section_top {
+    background: $white;
+    h2 {
+      font-size: 42px;
+      padding: 40px 0 19px 0;
+      margin-bottom: 0px;
+    }
+    h1 {
+      font-size: 64px;
+      padding: 0px 0 15px;
+    }
+    h3 {
+      font-size: 42px;
+      line-height: 48px;
+    }
+    h4 {
+      padding: 0px;
+      font-size: 33px;
+
+    }
+    .oil_mobile {
+      padding-right: 0px;
+    }
+    .timer {
+      padding: 0px;
+      h2 {
+        margin: 0px 0 37px;
+        font-size: 32px;
+        padding: 10px 0;
+      }
+    }
+    .check{
+      p{
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .price_section {
+    p {
+      line-height: 51px;
+      font-size: 35px;
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .sale {
+      padding-left: inherit;
+      padding-right: 0px;
+    }
+    .sale_price {
+      margin-bottom: 35px;
+      p {
+        font-size: 73px;
+        line-height: 73px;
+        text-align: left;
+      }
+      h5{
+        text-align: left;
+      }
+    }
+    .button_price {
+      float: none!important;
+      .button {
+        width: 100%;
+        padding: 14px 18px;
+        margin: 10px 0 20px;
+      }
+    }
+  }
+
+  .section_two {
+    padding-top: 0px;
+    background: $white;
+    h2 {
+      font-size: 48px;
+      padding-bottom: 0px;
+      padding-top: 40px;
+    }
+    .advantages, .disadvantages {
+      margin-bottom: 20px;
+      h3 {
+        width: 100%;
+      }
+      .description {
+        h5 {
+          width: 475px;
+          vertical-align: middle;
+
+        }
+      }
+      .columns {
+        padding: 0 10px;
+        margin-bottom: 30px;
+      }
+    }
+    .disadvantages {
+      .description {
+        h5 {
+          margin: 0px;
+        }
+        img {
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .section_footer {
+
+    .time {
+      margin: 7px 0 30px;
+      columns{
+        margin: 0 10px;
+      }
+      img {
+        margin: auto 0;
+      }
+      .time_small {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        h5 {
+          padding: 20px;
+        }
+      }
+      .time_center {
+
+        h5 {
+          padding: 38px 18px;
+        }
+      }
+    }
+    .oil {
+      h2 {
+        line-height: 64px;
+        margin-top: 0px;
+        font-size: 44px;
+        text-align: center;
+      }
+    }
+    .price_section {
+      margin-bottom: 10px;
+    }
+  }
+}
