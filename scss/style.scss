@@ -8,6 +8,8 @@ body {
 .section_top {
   background: url("../image/bg1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom, left;
   h2 {
     color: $red;
     font-weight: 700;
@@ -188,6 +190,8 @@ body {
 .section_footer {
   background: url("../image/bg3.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   h2 {
     font-weight: 700;
     color: $grey;
@@ -516,7 +520,7 @@ body {
 
     .time {
       margin: 7px 0 30px;
-      columns{
+      .columns{
         margin: 0 10px;
       }
       img {
